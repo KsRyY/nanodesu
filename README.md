@@ -1,2 +1,2 @@
-# nanodesu
-(WIP) The package manager for Nanodesu Linux (also a WIP).
+# pekora
+Pekora is an atomic package manager for Linux that is distribution agnostic
