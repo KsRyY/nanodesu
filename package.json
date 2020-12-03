@@ -1,0 +1,24 @@
+{
+  "name": "pekora",
+  "version": "1.0.0",
+  "description": "Pekora is an atomic package manager for Linux that is distribution agnostic",
+  "main": "index.js",
+  "repository": "https://github.com/KsRyY/pekora.git",
+  "author": "Andy Chen <andy200511@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
+    "typescript": "^4.1.2",
+    "xo": "^0.35.0"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.4",
+    "@types/js-yaml": "^3.12.5",
+    "fs-extra": "^9.0.1",
+    "js-yaml": "^3.14.0",
+    "level": "^6.0.1",
+    "subleveldown": "^5.0.1"
+  }
+}
