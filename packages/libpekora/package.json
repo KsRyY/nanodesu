@@ -1,0 +1,43 @@
+{
+  "name": "libpekora",
+  "version": "0.0.0",
+  "description": "Javascript backend for the pekora package manager",
+  "keywords": [
+    "package",
+    "pekora",
+    "atomic",
+    "reproducible"
+  ],
+  "author": "Andy Chen <andy200511@126.com>",
+  "homepage": "https://github.com/KsRyY/pekora/tree/master/packages/libpekora",
+  "license": "MIT",
+  "main": "dist/libpekora.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KsRyY/pekora.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/KsRyY/pekora/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "level": "^6.0.1",
+    "yaml": "^2.0.0-1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.5",
+    "bili": "^5.0.5",
+    "typescript": "^4.1.3",
+    "xo": "^0.36.1"
+  }
+}
