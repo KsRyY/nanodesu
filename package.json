@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"repository": "https://github.com/KsRyY/pekora.git",
 	"author": "Andy Chen <andy200511@126.com>",
-	"license": "MIT",
+	"license": "LGPL-3.0-or-later",
 	"private": true,
 	"devDependencies": {
 		"eslint-config-prettier": "^7.1.0",
