@@ -1,13 +1,23 @@
 {
-  "name": "pekora",
-  "version": "1.0.0",
-  "description": "An antomic and reproducible Linux package manager",
-  "main": "index.js",
-  "repository": "https://github.com/KsRyY/pekora.git",
-  "author": "Andy Chen <andy200511@126.com>",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  }
+	"name": "pekora",
+	"version": "1.0.0",
+	"description": "An antomic and reproducible Linux package manager",
+	"main": "index.js",
+	"repository": "https://github.com/KsRyY/pekora.git",
+	"author": "Andy Chen <andy200511@126.com>",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"eslint-config-prettier": "^7.1.0",
+		"eslint-plugin-prettier": "^3.3.0",
+		"lerna": "^3.22.1",
+		"prettier": "^2.2.1",
+		"xo": "^0.36.1"
+	},
+	"xo": {
+		"extends": [
+			"plugin:prettier/recommended",
+			"prettier/@typescript-eslint"
+		]
+	}
 }
