@@ -18,6 +18,17 @@
 		"extends": [
 			"plugin:prettier/recommended",
 			"prettier/@typescript-eslint"
-		]
+		],
+		"rules": {
+			"unicorn/filename-case": [
+				"error",
+				{
+					"case": "camelCase",
+					"ignore": [
+						"Foyfile.ts"
+					]
+				}
+			]
+		}
 	}
 }
