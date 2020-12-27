@@ -102,3 +102,6 @@ dist
 
 # Theia WebIDE
 .theia
+
+# VSCode local configuration
+.vscode
